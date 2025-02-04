@@ -1,0 +1,178 @@
+{
+  "" : {
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz-master.dia",
+    "emit-module-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz-master-emit-module.dia",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz-master.swiftdeps"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/Application/Aezaekmi_tzApp.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tzApp~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/Model/BluetoothDevice.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDevice~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/Service/BluetoothService.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothService~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/Service/CoreDataManager.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/CoreDataManager~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothDeviceView/BluetoothDeviceView.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceView~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothScanHistory/BluetoothScanHistoryView.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanHistoryView~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothScanHistory/SessionDetailView.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/SessionDetailView~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothScanView.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanView~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothScanViewModel.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanViewModel~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/MainView.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/MainView~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/ScanProgressView.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/ScanProgressView~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/DerivedSources/CoreDataGenerated/Aezaekmi_tz/Aezaekmi_tz+CoreDataModel.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/Aezaekmi_tz+CoreDataModel~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/DerivedSources/CoreDataGenerated/Aezaekmi_tz/BluetoothDeviceEntity+CoreDataClass.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/DerivedSources/CoreDataGenerated/Aezaekmi_tz/BluetoothDeviceEntity+CoreDataProperties.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothDeviceEntity+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/DerivedSources/CoreDataGenerated/Aezaekmi_tz/BluetoothScanSession+CoreDataClass.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/DerivedSources/CoreDataGenerated/Aezaekmi_tz/BluetoothScanSession+CoreDataProperties.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/BluetoothScanSession+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/build/Aezaekmi_tz.build/Debug-iphoneos/Aezaekmi_tz.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

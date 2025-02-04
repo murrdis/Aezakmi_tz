@@ -1,0 +1,32 @@
+{
+  "source": "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothScanHistory/BluetoothScanHistoryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Scan History",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "No scan history available",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan from %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 29
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,48 @@
+{
+  "source": "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothDeviceView/BluetoothDeviceView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "ОБ УСТРОЙСТВЕ",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "UUID",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "RSSI (сигнал)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 33
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld dBm",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Статус",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 39
+        }
+      }
+    ]
+  },
+  "version": 1
+}

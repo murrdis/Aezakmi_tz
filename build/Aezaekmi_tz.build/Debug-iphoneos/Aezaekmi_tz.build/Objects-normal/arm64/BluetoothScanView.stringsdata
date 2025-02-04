@@ -1,0 +1,72 @@
+{
+  "source": "/Users/diasmurzagaliyev/Desktop/Aezaekmi_tz/Aezaekmi_tz/View/Bluetooth/BluetoothScanView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "DEVICES NEARBY",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 50
+        }
+      },
+      {
+        "comment": "",
+        "key": "Bluetooth",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan for available Bluetooth devices within range.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop scanning",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan devices",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 95
+        }
+      }
+    ]
+  },
+  "version": 1
+}
