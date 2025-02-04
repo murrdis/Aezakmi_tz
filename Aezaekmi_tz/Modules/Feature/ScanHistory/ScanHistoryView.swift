@@ -9,12 +9,12 @@
 import SwiftUI
 import CoreData
 
-struct ScanHistoryView: View {
+struct ScanHistoryView<ViewModel: ScanHistoryViewModel>: View {
     @Environment(\.managedObjectContext) private var viewContext
-    @StateObject private var viewModel: ScanHistoryViewModel
+    @StateObject private var viewModel: ViewModel
     
-    init(viewContext: NSManagedObjectContext) {
-        _viewModel = StateObject(wrappedValue: ScanHistoryViewModel(viewContext: viewContext))
+    init(viewContext: NSManagedObjectContext, viewModel: ViewModel) {
+        _viewModel = StateObject(wrappedValue: viewModel)
     }
 
     var body: some View {
@@ -34,7 +34,7 @@ struct ScanHistoryView: View {
                 }
             }
             .navigationTitle("Scan History")
-            .searchable(text: $viewModel.deviceNameFilter, prompt: "Search by device name")
+            .searchable(text: $viewModel.deviceSearchFilter, prompt: viewModel.promptText)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button(action: {

@@ -10,25 +10,17 @@ import CoreBluetooth
 import Combine
 
 class BluetoothScanViewModel: ObservableObject, DeviceScanViewModel {
+    let scanType: ScanType = .bluetooth
     let title = "Bluetooth"
     let description = "Scan for available Bluetooth devices within range."
-    let imageName: String = "bluetooth"
+    let deviceImage = Image("bluetooth")
     
     @Published var foundDevices: [any ScannableDevice] = []
     @Published var isScanning: Bool = false
     @Published var scanProgress: Double = 0.0
     @Published var connectedPeripheral: CBPeripheral?
-    @Published var alertTitle: String? = nil {
-        didSet {
-            print("alertTitle: \(alertTitle)")
-        }
-        
-    }
-    @Published var alertMessage: String? = nil {
-        didSet {
-            print("alertMessage: \(alertMessage)")
-        }
-    }
+    @Published var alertTitle: String? = nil
+    @Published var alertMessage: String? = nil
 
     private let bluetoothService: BluetoothService
     private var cancellables = Set<AnyCancellable>()

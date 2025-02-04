@@ -74,7 +74,7 @@ struct LaunchScreenView: View {
         
         timer = Timer.scheduledTimer(withTimeInterval: 0.01, repeats: true) { _ in
             if currentProgress < 1.0 {
-                currentProgress += 0.002
+                currentProgress += 0.003
             } else {
                 timer?.invalidate()
                 transitionToMainView()

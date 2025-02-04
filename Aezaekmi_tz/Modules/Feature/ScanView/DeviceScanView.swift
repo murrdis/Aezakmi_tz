@@ -46,7 +46,7 @@ struct DeviceScanView<ViewModel: DeviceScanViewModel>: View {
                 if viewModel.alertTitle == "Bluetooth Permission Denied" {
                     return Alert(
                         title: Text(viewModel.alertTitle ?? "Unknown error."),
-                        message: Text(viewModel.alertMessage ?? ""),
+                        message: Text(viewModel.alertMessage ?? "Please try again"),
                         primaryButton: .default(Text("Settings"), action: {
                             if let url = URL(string: UIApplication.openSettingsURLString) {
                                 UIApplication.shared.open(url)
@@ -57,7 +57,7 @@ struct DeviceScanView<ViewModel: DeviceScanViewModel>: View {
                 } else {
                     return Alert(
                         title: Text(viewModel.alertTitle ?? "Unknown error."),
-                        message: Text(viewModel.alertMessage ?? ""),
+                        message: Text(viewModel.alertMessage ?? "Please try again"),
                         dismissButton: .default(Text("OK"))
                     )
                 }
@@ -76,14 +76,14 @@ struct DeviceScanView<ViewModel: DeviceScanViewModel>: View {
                 Color.black.opacity(1)
                     .edgesIgnoringSafeArea(.all)
                 ScanProgressView(scanProgress: $viewModel.scanProgress)
-                    .animation(.easeInOut, value: viewModel.isScanning)
+                    .animation(.easeInOut(duration: 0.3), value: viewModel.isScanning)
             }
         }
     }
     
     @ViewBuilder func ScanHeader() -> some View {
         VStack(spacing: 15) {
-            Image(viewModel.imageName)
+            viewModel.deviceImage
                 .resizable()
                 .scaledToFit()
                 .frame(width: 60, height: 60)
@@ -125,12 +125,19 @@ struct DeviceScanView<ViewModel: DeviceScanViewModel>: View {
                         .foregroundColor(.white)
                 }
                 .background(
-                    NavigationLink(destination: ScanHistoryView(viewContext: viewContext), isActive: $showHistory) {
-                        EmptyView()
-                    }
-                        .hidden()
+                    NavigationLink(
+                        destination: Group {
+                            switch viewModel.scanType {
+                            case .bluetooth:
+                                ScanHistoryView(viewContext: viewContext, viewModel: BluetoothScanHistoryViewModel(viewContext: viewContext))
+                            case .lan:
+                                ScanHistoryView(viewContext: viewContext, viewModel: LanScanHistoryViewModel(viewContext: viewContext))
+                            }
+                        },
+                        isActive: $showHistory
+                    ) { EmptyView() }
+                    .hidden()
                 )
-                
             }
         }
         .padding(20)
@@ -142,9 +149,3 @@ struct DeviceScanView<ViewModel: DeviceScanViewModel>: View {
     }
     
 }
-
-//struct DeviceScanView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        DeviceScanView()
-//    }
-//}

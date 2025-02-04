@@ -9,6 +9,7 @@
 import Foundation
 import CoreBluetooth
 import Combine
+import CoreData
 
 enum BluetoothScanEvent {
     case bluetoothTurnedOff
@@ -69,14 +70,12 @@ class BluetoothService: NSObject, ObservableObject {
         scanTimeoutTimer = Timer.scheduledTimer(withTimeInterval: 0.001, repeats: true) { [weak self] timer in
             guard let self = self, let startTime = self.scanStartTime else { return }
             let elapsed = Date().timeIntervalSince(startTime)
-            let duration = self.scanTimeout
-            self.scanProgress = min(elapsed / duration, 1.0)
+            self.scanProgress = min(elapsed / self.scanTimeout, 1.0)
             
-            if elapsed >= duration {
+            if elapsed >= self.scanTimeout {
                 timer.invalidate()
                 self.stopScan()
-                let count = self.foundDevices.count
-                self.scanEventPublisher.send(.scanCompleted(deviceCount: count))
+                self.scanEventPublisher.send(.scanCompleted(deviceCount: self.foundDevices.count))
                 
                 self.saveScanSession()
             }
@@ -110,7 +109,9 @@ class BluetoothService: NSObject, ObservableObject {
     
     func stopScan() {
         centralManager.stopScan()
-        isScanning = false
+        DispatchQueue.main.async {
+            self.isScanning = false
+        }
         scanTimeoutTimer?.invalidate()
         scanTimeoutTimer = nil
     }
@@ -138,12 +139,10 @@ extension BluetoothService: CBCentralManagerDelegate {
             status: peripheral.state
         )
         
-        if foundDevices.contains(where: { $0.id == device.id }) {
-            return
-        }
-        
-        if foundDevices.firstIndex(where: { $0.id == device.id }) == nil && rssi.intValue > rssiThreshold {
-            foundDevices.append(device)
+        DispatchQueue.main.async {
+            if !self.foundDevices.contains(where: { $0.id == device.id }), rssi.intValue > self.rssiThreshold {
+                self.foundDevices.append(device)
+            }
         }
     }
     
@@ -178,7 +177,6 @@ extension BluetoothService: CBCentralManagerDelegate {
             print("Device not found for disconnection")
             return
         }
-        print("Disconnecting from \(peripheral.identifier.uuidString)")
         updateDeviceStatus(for: peripheral, status: .disconnecting)
         centralManager.cancelPeripheralConnection(peripheral)
     }
@@ -203,7 +201,6 @@ extension BluetoothService: CBCentralManagerDelegate {
 extension BluetoothService: CBPeripheralDelegate {
     
     func centralManager(_ central: CBCentralManager, didConnect peripheral: CBPeripheral) {
-        print("Connected to \(peripheral.identifier.uuidString)")
         updateDeviceStatus(for: peripheral, status: .connected)
         connectionEventPublisher.send(.connected(peripheral))
         connectionTimeoutTimer?.invalidate()
@@ -213,13 +210,11 @@ extension BluetoothService: CBPeripheralDelegate {
     }
     
     func centralManager(_ central: CBCentralManager, didFailToConnect peripheral: CBPeripheral, error: Error?) {
-        print("Failed to connect to \(peripheral.identifier.uuidString)")
         updateDeviceStatus(for: peripheral, status: .disconnected)
         connectionEventPublisher.send(.failedToConnect(peripheral, error))
     }
     
     func centralManager(_ central: CBCentralManager, didDisconnectPeripheral peripheral: CBPeripheral, error: (any Error)?) {
-        print("Disconnected from \(peripheral.identifier.uuidString)")
         updateDeviceStatus(for: peripheral, status: .disconnected)
         connectionEventPublisher.send(.disconnected(peripheral))
     }
@@ -235,7 +230,7 @@ extension BluetoothService: CBPeripheralDelegate {
     func peripheral(_ peripheral: CBPeripheral, didDiscoverCharacteristicsFor service: CBService, error: Error?) {
         if let characteristics = service.characteristics {
             for characteristic in characteristics {
-                print("Found characteristic: \(characteristic.uuid)")
+                print("Found characteristic: \(characteristic)")
             }
         }
     }
@@ -243,29 +238,29 @@ extension BluetoothService: CBPeripheralDelegate {
 
 // MARK: - CoreData function
 
-import CoreData
-
 extension BluetoothService {
     private func saveScanSession() {
-        let context = PersistenceController.shared.container.viewContext
-        let session = BluetoothScanSessionEntity(context: context)
-        session.scanDate = Date()
-        
-        for device in foundDevices {
-            let deviceEntity = BluetoothDeviceEntity(context: context)
-            deviceEntity.id = device.id
-            deviceEntity.name = device.name
-            deviceEntity.rssi = Int16(device.rssi)
-            deviceEntity.status = device.statusText
+        let container = PersistenceController.shared.container
+        container.performBackgroundTask { context in
+            let session = BluetoothScanSessionEntity(context: context)
+            session.scanDate = Date()
             
-            deviceEntity.session = session
-        }
-        
-        do {
-            try context.save()
-            print("Scan session saved successfully with \(foundDevices.count) devices.")
-        } catch {
-            print("Failed to save scan session: \(error)")
+            for device in self.foundDevices {
+                let deviceEntity = BluetoothDeviceEntity(context: context)
+                deviceEntity.id = device.id
+                deviceEntity.name = device.name
+                deviceEntity.rssi = Int16(device.rssi)
+                deviceEntity.status = device.statusText
+                
+                deviceEntity.session = session
+            }
+            
+            do {
+                try context.save()
+            } catch {
+                print("Failed to save Bluetooth scan session: \(error)")
+            }
         }
     }
 }
+

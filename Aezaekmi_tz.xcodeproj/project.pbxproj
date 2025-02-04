@@ -15,11 +15,14 @@
 		3389D4662D4E5A97007BF2F0 /* BluetoothService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389D4652D4E5A97007BF2F0 /* BluetoothService.swift */; };
 		3389D4712D4FD3FA007BF2F0 /* DeviceDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389D4702D4FD3F9007BF2F0 /* DeviceDetailsView.swift */; };
 		3389D4782D4FF85F007BF2F0 /* ScanProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389D4772D4FF85F007BF2F0 /* ScanProgressView.swift */; };
-		3389D4832D503329007BF2F0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389D4822D503329007BF2F0 /* CoreDataManager.swift */; };
+		3389D4832D503329007BF2F0 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389D4822D503329007BF2F0 /* PersistenceController.swift */; };
 		3389D4852D503469007BF2F0 /* ScanHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3389D4842D503469007BF2F0 /* ScanHistoryView.swift */; };
+		3393B5182D52BC1400BFEB4B /* ScanHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393B5172D52BC1400BFEB4B /* ScanHistoryViewModel.swift */; };
+		3393B51D2D52BE8D00BFEB4B /* LanScanHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393B51C2D52BE8D00BFEB4B /* LanScanHistoryViewModel.swift */; };
+		3393B51F2D52C22100BFEB4B /* ScannableDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3393B51E2D52C22100BFEB4B /* ScannableDevice.swift */; };
 		33B71A282D50D0A7006E5B85 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 33B71A272D50D0A7006E5B85 /* Lottie */; };
 		33E596992D515AC100BFFD8B /* DateIntervalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E596982D515AC100BFFD8B /* DateIntervalPickerView.swift */; };
-		33E5969B2D515E8C00BFFD8B /* ScanHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E5969A2D515E8C00BFFD8B /* ScanHistoryViewModel.swift */; };
+		33E5969B2D515E8C00BFFD8B /* BluetoothScanHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E5969A2D515E8C00BFFD8B /* BluetoothScanHistoryViewModel.swift */; };
 		33E5969D2D51637100BFFD8B /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E5969C2D51637100BFFD8B /* LaunchScreenView.swift */; };
 		33E596AC2D5165B600BFFD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E596A62D5165B600BFFD8B /* Assets.xcassets */; };
 		33E596AD2D5165B600BFFD8B /* launch.lottie in Resources */ = {isa = PBXBuildFile; fileRef = 33E596A72D5165B600BFFD8B /* launch.lottie */; };
@@ -28,8 +31,10 @@
 		33E7B4532D520244004D1C19 /* DeviceScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B4522D520244004D1C19 /* DeviceScanViewModel.swift */; };
 		33E7B4552D52029B004D1C19 /* LanDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B4542D52029B004D1C19 /* LanDevice.swift */; };
 		33E7B4582D5203CD004D1C19 /* LanScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B4572D5203CD004D1C19 /* LanScanViewModel.swift */; };
-		33E7B4622D523492004D1C19 /* BluetoothScanSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B4612D523492004D1C19 /* BluetoothScanSession.swift */; };
+		33E7B4622D523492004D1C19 /* ScanSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E7B4612D523492004D1C19 /* ScanSession.swift */; };
+		33EAB07B2D528BC600604B2A /* LanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EAB07A2D528BC600604B2A /* LanService.swift */; };
 		33F9541F2D5107FB003C3A50 /* DeviceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9541E2D5107FB003C3A50 /* DeviceCellView.swift */; };
+		FFCE0FA6A22EC438B039577D /* Pods_Aezaekmi_tz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A92231452D2A054413AC0B8 /* Pods_Aezaekmi_tz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,10 +47,13 @@
 		3389D4652D4E5A97007BF2F0 /* BluetoothService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothService.swift; sourceTree = "<group>"; };
 		3389D4702D4FD3F9007BF2F0 /* DeviceDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailsView.swift; sourceTree = "<group>"; };
 		3389D4772D4FF85F007BF2F0 /* ScanProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanProgressView.swift; sourceTree = "<group>"; };
-		3389D4822D503329007BF2F0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		3389D4822D503329007BF2F0 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		3389D4842D503469007BF2F0 /* ScanHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanHistoryView.swift; sourceTree = "<group>"; };
+		3393B5172D52BC1400BFEB4B /* ScanHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanHistoryViewModel.swift; sourceTree = "<group>"; };
+		3393B51C2D52BE8D00BFEB4B /* LanScanHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanScanHistoryViewModel.swift; sourceTree = "<group>"; };
+		3393B51E2D52C22100BFEB4B /* ScannableDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannableDevice.swift; sourceTree = "<group>"; };
 		33E596982D515AC100BFFD8B /* DateIntervalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIntervalPickerView.swift; sourceTree = "<group>"; };
-		33E5969A2D515E8C00BFFD8B /* ScanHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanHistoryViewModel.swift; sourceTree = "<group>"; };
+		33E5969A2D515E8C00BFFD8B /* BluetoothScanHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanHistoryViewModel.swift; sourceTree = "<group>"; };
 		33E5969C2D51637100BFFD8B /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		33E596A52D5165B600BFFD8B /* Aezaekmi-tz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aezaekmi-tz-Info.plist"; sourceTree = "<group>"; };
 		33E596A62D5165B600BFFD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,8 +63,12 @@
 		33E7B4522D520244004D1C19 /* DeviceScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScanViewModel.swift; sourceTree = "<group>"; };
 		33E7B4542D52029B004D1C19 /* LanDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanDevice.swift; sourceTree = "<group>"; };
 		33E7B4572D5203CD004D1C19 /* LanScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanScanViewModel.swift; sourceTree = "<group>"; };
-		33E7B4612D523492004D1C19 /* BluetoothScanSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothScanSession.swift; sourceTree = "<group>"; };
+		33E7B4612D523492004D1C19 /* ScanSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSession.swift; sourceTree = "<group>"; };
+		33EAB07A2D528BC600604B2A /* LanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanService.swift; sourceTree = "<group>"; };
 		33F9541E2D5107FB003C3A50 /* DeviceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCellView.swift; sourceTree = "<group>"; };
+		3A92231452D2A054413AC0B8 /* Pods_Aezaekmi_tz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aezaekmi_tz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB877C956B164A265E92A79 /* Pods-Aezaekmi_tz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aezaekmi_tz.release.xcconfig"; path = "Target Support Files/Pods-Aezaekmi_tz/Pods-Aezaekmi_tz.release.xcconfig"; sourceTree = "<group>"; };
+		A34DC62E954784961453CBFF /* Pods-Aezaekmi_tz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aezaekmi_tz.debug.xcconfig"; path = "Target Support Files/Pods-Aezaekmi_tz/Pods-Aezaekmi_tz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -73,6 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B71A282D50D0A7006E5B85 /* Lottie in Frameworks */,
+				FFCE0FA6A22EC438B039577D /* Pods_Aezaekmi_tz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +97,8 @@
 			children = (
 				3389D44D2D4E4914007BF2F0 /* Aezaekmi_tz */,
 				3389D4272D4E330B007BF2F0 /* Products */,
+				DA1F6C320365FD0276E2F252 /* Pods */,
+				84E22A87BA5E831E66FF6349 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,8 +132,9 @@
 		3389D4642D4E5A8B007BF2F0 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				33EAB07A2D528BC600604B2A /* LanService.swift */,
 				3389D4652D4E5A97007BF2F0 /* BluetoothService.swift */,
-				3389D4822D503329007BF2F0 /* CoreDataManager.swift */,
+				3389D4822D503329007BF2F0 /* PersistenceController.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -126,10 +142,10 @@
 		3389D4672D4E5BB8007BF2F0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				33E7B4612D523492004D1C19 /* BluetoothScanSession.swift */,
+				33E7B4612D523492004D1C19 /* ScanSession.swift */,
+				3393B51E2D52C22100BFEB4B /* ScannableDevice.swift */,
 				3389D45E2D4E4ECE007BF2F0 /* BluetoothDevice.swift */,
 				33E7B4542D52029B004D1C19 /* LanDevice.swift */,
-				33E7B4522D520244004D1C19 /* DeviceScanViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,9 +154,38 @@
 			isa = PBXGroup;
 			children = (
 				3389D4842D503469007BF2F0 /* ScanHistoryView.swift */,
-				33E5969A2D515E8C00BFFD8B /* ScanHistoryViewModel.swift */,
+				3393B5172D52BC1400BFEB4B /* ScanHistoryViewModel.swift */,
+				33E596B02D516C8600BFFD8B /* Bluetooth */,
+				33E7B4562D5203BD004D1C19 /* Lan */,
 			);
 			path = ScanHistory;
+			sourceTree = "<group>";
+		};
+		3393B5192D52BC2200BFEB4B /* ScanView */ = {
+			isa = PBXGroup;
+			children = (
+				3389D4622D4E4F01007BF2F0 /* DeviceScanView.swift */,
+				33E7B4522D520244004D1C19 /* DeviceScanViewModel.swift */,
+				3393B51A2D52BE0200BFEB4B /* Bluetooth */,
+				3393B51B2D52BE0D00BFEB4B /* Lan */,
+			);
+			path = ScanView;
+			sourceTree = "<group>";
+		};
+		3393B51A2D52BE0200BFEB4B /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				3389D4602D4E4EE3007BF2F0 /* BluetoothScanViewModel.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		3393B51B2D52BE0D00BFEB4B /* Lan */ = {
+			isa = PBXGroup;
+			children = (
+				33E7B4572D5203CD004D1C19 /* LanScanViewModel.swift */,
+			);
+			path = Lan;
 			sourceTree = "<group>";
 		};
 		33E5969E2D51638E00BFFD8B /* Common */ = {
@@ -165,12 +210,10 @@
 		33E596A22D51654F00BFFD8B /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				3389D4622D4E4F01007BF2F0 /* DeviceScanView.swift */,
 				33F9541E2D5107FB003C3A50 /* DeviceCellView.swift */,
 				3389D4702D4FD3F9007BF2F0 /* DeviceDetailsView.swift */,
+				3393B5192D52BC2200BFEB4B /* ScanView */,
 				3389D4862D503475007BF2F0 /* ScanHistory */,
-				33E596B02D516C8600BFFD8B /* Bluetooth */,
-				33E7B4562D5203BD004D1C19 /* Lan */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -201,7 +244,7 @@
 		33E596B02D516C8600BFFD8B /* Bluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				3389D4602D4E4EE3007BF2F0 /* BluetoothScanViewModel.swift */,
+				33E5969A2D515E8C00BFFD8B /* BluetoothScanHistoryViewModel.swift */,
 			);
 			path = Bluetooth;
 			sourceTree = "<group>";
@@ -209,9 +252,26 @@
 		33E7B4562D5203BD004D1C19 /* Lan */ = {
 			isa = PBXGroup;
 			children = (
-				33E7B4572D5203CD004D1C19 /* LanScanViewModel.swift */,
+				3393B51C2D52BE8D00BFEB4B /* LanScanHistoryViewModel.swift */,
 			);
 			path = Lan;
+			sourceTree = "<group>";
+		};
+		84E22A87BA5E831E66FF6349 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A92231452D2A054413AC0B8 /* Pods_Aezaekmi_tz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA1F6C320365FD0276E2F252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A34DC62E954784961453CBFF /* Pods-Aezaekmi_tz.debug.xcconfig */,
+				3EB877C956B164A265E92A79 /* Pods-Aezaekmi_tz.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3389D4392D4E330E007BF2F0 /* Build configuration list for PBXNativeTarget "Aezaekmi_tz" */;
 			buildPhases = (
+				350BAA9F1922E4D59397733C /* [CP] Check Pods Manifest.lock */,
 				3389D4222D4E330B007BF2F0 /* Sources */,
 				3389D4232D4E330B007BF2F0 /* Frameworks */,
 				3389D4242D4E330B007BF2F0 /* Resources */,
+				B5D538893202B35DBA5544E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,6 +352,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		350BAA9F1922E4D59397733C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aezaekmi_tz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D538893202B35DBA5544E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aezaekmi_tz/Pods-Aezaekmi_tz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aezaekmi_tz/Pods-Aezaekmi_tz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aezaekmi_tz/Pods-Aezaekmi_tz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3389D4222D4E330B007BF2F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -299,13 +403,16 @@
 				3389D45F2D4E4ECE007BF2F0 /* BluetoothDevice.swift in Sources */,
 				3389D4852D503469007BF2F0 /* ScanHistoryView.swift in Sources */,
 				3389D4512D4E4914007BF2F0 /* MainView.swift in Sources */,
-				33E5969B2D515E8C00BFFD8B /* ScanHistoryViewModel.swift in Sources */,
+				33EAB07B2D528BC600604B2A /* LanService.swift in Sources */,
+				33E5969B2D515E8C00BFFD8B /* BluetoothScanHistoryViewModel.swift in Sources */,
 				33E7B4532D520244004D1C19 /* DeviceScanViewModel.swift in Sources */,
 				33E5969D2D51637100BFFD8B /* LaunchScreenView.swift in Sources */,
 				3389D4612D4E4EE3007BF2F0 /* BluetoothScanViewModel.swift in Sources */,
+				3393B51F2D52C22100BFEB4B /* ScannableDevice.swift in Sources */,
 				3389D4532D4E4914007BF2F0 /* Aezaekmi_tzApp.swift in Sources */,
 				33E7B4552D52029B004D1C19 /* LanDevice.swift in Sources */,
-				33E7B4622D523492004D1C19 /* BluetoothScanSession.swift in Sources */,
+				3393B5182D52BC1400BFEB4B /* ScanHistoryViewModel.swift in Sources */,
+				33E7B4622D523492004D1C19 /* ScanSession.swift in Sources */,
 				33E596AF2D5165B600BFFD8B /* Aezaekmi_tz.xcdatamodeld in Sources */,
 				33F9541F2D5107FB003C3A50 /* DeviceCellView.swift in Sources */,
 				3389D4782D4FF85F007BF2F0 /* ScanProgressView.swift in Sources */,
@@ -313,7 +420,8 @@
 				3389D4712D4FD3FA007BF2F0 /* DeviceDetailsView.swift in Sources */,
 				33E7B4582D5203CD004D1C19 /* LanScanViewModel.swift in Sources */,
 				33E596992D515AC100BFFD8B /* DateIntervalPickerView.swift in Sources */,
-				3389D4832D503329007BF2F0 /* CoreDataManager.swift in Sources */,
+				3393B51D2D52BE8D00BFEB4B /* LanScanHistoryViewModel.swift in Sources */,
+				3389D4832D503329007BF2F0 /* PersistenceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +465,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +528,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -441,6 +549,7 @@
 		};
 		3389D43A2D4E330E007BF2F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34DC62E954784961453CBFF /* Pods-Aezaekmi_tz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +582,7 @@
 		};
 		3389D43B2D4E330E007BF2F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB877C956B164A265E92A79 /* Pods-Aezaekmi_tz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

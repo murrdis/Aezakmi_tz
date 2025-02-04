@@ -10,7 +10,8 @@ import CoreData
 
 struct MainView: View {
     @Environment(\.managedObjectContext) private var viewContext
-    
+    @State var lanService: LanService? = LanService()
+
     var body: some View {
         List {
             NavigationLink(destination: DeviceScanView(viewModel: BluetoothScanViewModel())) {
@@ -20,14 +21,23 @@ struct MainView: View {
                 }
             }
             
-            NavigationLink(destination: EmptyView()) {
+            NavigationLink(destination: DeviceScanView(viewModel: LanScanViewModel())) {
                 HStack {
                     Image(systemName: "wifi")
                     Text("LAN (Wi-Fi)")
                 }
             }
+            .onAppear {
+                requestLocalNetworkPermission()
+            }
         }
         .navigationTitle("BlueLan")
         .navigationBarBackButtonHidden(true)
+    }
+    
+    private func requestLocalNetworkPermission() {
+        lanService?.startScan()
+        lanService?.stopScan()
+        lanService = nil
     }
 }

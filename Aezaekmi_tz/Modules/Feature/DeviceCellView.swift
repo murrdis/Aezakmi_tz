@@ -18,7 +18,7 @@ struct DeviceCellView: View {
             onDeviceTapped?(device)
         }) {
             HStack {
-                Text(device.name ?? device.id.uuidString)
+                Text(device.displayName)
                 Spacer()
                 
                 if shouldShowStatus, let bluetoothDevice = device as? BluetoothDevice {

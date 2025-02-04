@@ -38,15 +38,3 @@ struct DeviceDetailsView: View {
         .background(Color.black.edgesIgnoringSafeArea(.all))
     }
 }
-
-
-
-//struct DeviceDetailsView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        let sampleDevice = BluetoothDevice(id: UUID(), name: "Beats Studio3", rssi: -55, status: .connected)
-//        let sampleServices: [CBService] = []
-//        
-//        DeviceDetailsView(device: sampleDevice)
-//            .preferredColorScheme(.dark)
-//    }
-//}

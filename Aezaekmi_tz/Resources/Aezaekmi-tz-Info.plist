@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Нам нужен доступ к Bluetooth, чтобы сканировать ближайшие устройства и подключаться к ним.</string>
+	<string>We need Bluetooth access to scan nearby devices and connect to them.</string>
 </dict>
 </plist>

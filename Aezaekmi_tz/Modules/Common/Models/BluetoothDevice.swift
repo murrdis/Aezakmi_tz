@@ -24,6 +24,15 @@ struct BluetoothDevice: ScannableDevice {
         ]
     }
     
+    var displayName: String {
+        if let name = name, !name.isEmpty {
+            return name
+        } else {
+            return id.uuidString
+        }
+    }
+    
+    
     var statusText: String {
         switch status {
         case .connected: return "Connected"
@@ -35,11 +44,7 @@ struct BluetoothDevice: ScannableDevice {
         @unknown default: return ""
         }
     }
-}
-
-
-
-extension BluetoothDevice {
+    
     var statusColor: Color {
         switch status {
         case .connected: return .green

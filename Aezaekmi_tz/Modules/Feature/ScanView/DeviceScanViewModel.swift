@@ -8,11 +8,18 @@
 
 import Foundation
 import Combine
+import SwiftUI
+
+enum ScanType {
+    case bluetooth
+    case lan
+}
 
 protocol DeviceScanViewModel: ObservableObject {
+    var scanType: ScanType { get }
     var title: String { get }
     var description: String { get }
-    var imageName: String { get }
+    var deviceImage: Image { get }
     var foundDevices: [any ScannableDevice] { get }
     var isScanning: Bool { get }
     var scanProgress: Double { get set }
@@ -21,10 +28,4 @@ protocol DeviceScanViewModel: ObservableObject {
     
     func scanButtonWasTapped()
     func deviceWasTapped(deviceID: UUID)
-}
-
-protocol ScannableDevice: Identifiable {
-    var id: UUID { get }
-    var name: String? { get }
-    var details: [(String, String)] { get }
 }

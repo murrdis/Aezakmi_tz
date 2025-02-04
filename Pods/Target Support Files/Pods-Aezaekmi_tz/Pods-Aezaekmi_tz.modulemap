@@ -1,0 +1,6 @@
+framework module Pods_Aezaekmi_tz {
+  umbrella header "Pods-Aezaekmi_tz-umbrella.h"
+
+  export *
+  module * { export * }
+}
